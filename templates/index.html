@@ -1,10 +1,40 @@
 {% extends "base.html" %}
 
-{% block title %}Portfolio{% endblock %}
+{% block title %}Home{% endblock %}
 
 {% block content %}
-<div style="margin:0 auto;text-align: center;padding-top: 100px;">
-	<img src="../static/img/logo.png">	
+<div class="container">
+	<div class="row">
+		<div id="logo_head" style="text-align:center;">
+			<img src="../static/img/logo.png" style="vertical-align:middle;"><span style="font-size:70px;vertical-align:middle;">&nbsp;&nbsp;SAM <b>EHNIS-CLARK</b></span>
+		</div>
+	</div>
+	<hr>
+	<div class="monty row">
+		<div class="six columns home_content" style="background-image:'/static/img/identity.png'">
+			<div style="height:150px;">
+				<h2 style="line-height:150px;text-align:center;">RESUME</h2>
+			</div>
+		</div>
+		<div class="six columns home_content">
+			<div style="height:150px;">
+				<h2 style="line-height:150px;text-align:center;">PORTFOLIO</h2>
+			</div>
+		</div>
+	</div>
+	<div class="monty row">
+		<div class="six columns home_content" style="background-image:'/static/img/identity.png'">
+			<div style="height:150px;">
+				<h2 style="line-height:150px;text-align:center;">PROJECTS</h2>
+			</div>
+		</div>
+		<div class="six columns home_content">
+			<div style="height:150px;">
+				<h2 style="line-height:150px;text-align:center;">ABOUT</h2>
+			</div>
+		</div>
+	</div>
+
 </div>
 
 
