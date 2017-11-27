@@ -189,3 +189,19 @@ html, body {
 	background-size: 100%;
 	background-repeat:repeat;
 }
+
+#projectheader {
+	width:100%;
+	display:flex;
+	margin:20px;
+	text-align:left;
+	justify-content: center;
+
+}
+
+.projectzone {
+	max-width:900px;
+	height:2500px;
+	background-color:rgba(245, 245, 248, .95);
+	border-radius:15px;
+	border: 1px solid lightgray;
