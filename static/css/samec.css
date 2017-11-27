@@ -4,15 +4,6 @@ html, body {
     height: 100%;
 }
 
-h1 {
-	font-weight:bold!important;
-	border-radius:25px;
-}
-
-h3 {
-	font-weight:bold!important;
-}
-
 .bottomrow {
 	display: flex;
 	align-items: center;
@@ -29,14 +20,36 @@ h3 {
 	height:100%;
 }
 
-.contacttext {
+.contactcontent {
+	text-align: center;
+	width:100%;
+}
+
+.linkinfo {
+	text-align:center;
 	align-items:center;
-	margin:auto;
-	height:100%;
+	height:250px;
 	width:100%;
 	display:flex;
 	vertical-align:middle;
+}
+
+.portinfo {
 	text-align:center;
+	align-items:center;
+	height:300px;
+	width:100%;
+	display:flex;
+	vertical-align:middle;
+}
+
+
+.contacttext {
+	text-align:center;
+	align-items:center;
+	height:100%;
+	width:100%;
+	display:block;
 }
 
 #headerbox {
@@ -86,21 +99,24 @@ h3 {
 	vertical-align:middle;
 }
 
+.break {
+	height:100px;
+}
+
 .divider {
-	height:200px;
+	height:250px;
 	width:100%;
 	margin:0 auto;
 	text-align:center;
 	vertical-align:middle;
 }
 
-#aboutback {
-	height:400px;
-	background: red;
-	background: -webkit-linear-gradient(left top, #2FCBE0, #2EDBBE);
-	background: -o-linear-gradient(bottom right, #2FCBE0, #2EDBBE);
-	background: -moz-linear-gradient(bottom right, #2FCBE0, #2EDBBE);
-	background: linear-gradient(to bottom right, #2FCBE0, #2EDBBE);
+.dividerbig {
+	height:300px;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	vertical-align:middle;
 }
 
 .fullrow {
@@ -110,24 +126,6 @@ h3 {
 
 .aboutimg {
 	display:flex;
-}
-
-#portfolioback {
-	height:400px;
-	background: red;
-	background: -webkit-linear-gradient(left top, #2FCBE0, #2EDBBE);
-	background: -o-linear-gradient(bottom right, #2FCBE0, #2EDBBE);
-	background: -moz-linear-gradient(bottom right, #2FCBE0, #2EDBBE);
-	background: linear-gradient(to bottom right, #2FCBE0, #2EDBBE);
-}
-
-#projectback {
-	height:400px;
-	background: red;
-	background: -webkit-linear-gradient(left top, blue, yellow);
-	background: -o-linear-gradient(bottom right, blue, yellow);
-	background: -moz-linear-gradient(bottom right, blue, yellow);
-	background: linear-gradient(to bottom right, blue, yellow);
 }
 
 #optionbox {
@@ -144,13 +142,6 @@ h3 {
 	border-radius:25px; 
 	text-align:center;
 	vertical-align: center;
-}
-
-.aboutbox {
-	margin-top:15px;
-	height:100px;
-	background-color:white;
-	border-radius:25px;
 }
 
 .abouttext {
