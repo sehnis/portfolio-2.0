@@ -13,8 +13,30 @@ h3 {
 	font-weight:bold!important;
 }
 
+.bottomrow {
+	display: flex;
+	align-items: center;
+	text-align:center;
+	height:50px;
+}
+
 .section_head {
 	font-size:48px;
+}
+
+.contactrow {
+	align-items: center;
+	height:100%;
+}
+
+.contacttext {
+	align-items:center;
+	margin:auto;
+	height:100%;
+	width:100%;
+	display:flex;
+	vertical-align:middle;
+	text-align:center;
 }
 
 #headerbox {
@@ -65,7 +87,7 @@ h3 {
 }
 
 .divider {
-	height:100px;
+	height:200px;
 	width:100%;
 	margin:0 auto;
 	text-align:center;
@@ -158,4 +180,9 @@ h3 {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: bottom;
+}
+.bg_gradient_yg{
+	background-image:url(../img/grad_yg.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
