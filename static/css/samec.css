@@ -196,12 +196,11 @@ html, body {
 	margin:20px;
 	text-align:left;
 	justify-content: center;
-
 }
 
 .projectzone {
 	max-width:900px;
 	height:2500px;
-	background-color:rgba(245, 245, 248, .95);
+	background-color:rgba(250, 250, 250, .9);
 	border-radius:15px;
 	border: 1px solid lightgray;
