@@ -283,3 +283,8 @@ html, body {
 .logotiny {
 	font-size: 14px!important;
 }
+
+.sectionimg {
+	display:block;
+	margin: auto;
+}
